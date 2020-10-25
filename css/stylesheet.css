@@ -134,26 +134,40 @@ h2>a:active{
 
 /*NAVBAR*/ /*-----------------------------------------------------------------*/
 .navul{
+    overflow: hidden;
     margin: 0;
     padding: 0;
     display:block;
     background-color:#808080;
     list-style-type: none;
-    overflow: hidden;
+
 }
+
 .certificado{
     float:left;
-    display: inline;
+    display: block;
+    height:100%;
+    list-style-type: none;
+    width:auto;
+}
+
+@media only screen and (max-width: 700px){
+  .certificado{
+    display: block;
+    height:100%;
+    list-style-type: none;
+    width: 100%;
+  }
 }
 
 .certificado>a{
-
     text-decoration: none;
     display:block;
     padding:10px;
     color:#FFFFFF;
     font-family: sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .navul>li>a:hover, .certificado>a:focus{
@@ -161,7 +175,7 @@ h2>a:active{
 }
 
 .certificado>a.active{
-    background-color: #303030
+    background-color: #303030;
 }
 /*NAVBAR*//*-----------------------------------------------------------------*/
 
@@ -198,6 +212,8 @@ Footer{
   color:#666666;
   display:block;
   text-align: justify;
+  margin-left: 5%;
+  margin-right:5%;
 }
 
 .resumen_laboral{
@@ -293,6 +309,8 @@ Footer{
   font-family: "lato",verdana;
   color:#666666;
   display:block;
+  margin-left: 5%;
+  margin-right:5%;
 }
 
 .Estudios>h1{
@@ -345,6 +363,8 @@ display:block;
 }
 
 .diplomas>h1{
+  margin-left: 5%;
+  margin-right:5%;
   margin-top:25px;
   margin-bottom: 25px;
   padding: 5px;
@@ -386,4 +406,3 @@ img{
   padding: 10px 20px;
   border-top: 0.5px solid #666666;
 }
-
