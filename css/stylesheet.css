@@ -1,0 +1,389 @@
+/*LIMPIEZA DE FOROMATOS*/ /*----------------------------------------------------------------------------------------------------*/ 
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+ header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*LIMPIEZA DE FOROMATOS*/ /*----------------------------------------------------------------------------------------------------*/ 
+/*LIMPIEZA DE FOROMATOS*/ /*----------------------------------------------------------------------------------------------------*/ 
+/*LIMPIEZA DE FOROMATOS*/ /*----------------------------------------------------------------------------------------------------*/ 
+
+/*BODY*//*-------------------------------------------------------------------------------------*/
+html{
+  min-height:100%;
+}
+body{
+  background-color: #f7f5ee;
+  padding-bottom:56px;
+  font-family: "lato",verdana;
+  height:100%;
+}
+
+/*BODY*//*-------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------------------------------------------------*/
+
+header {
+    text-align: left ;
+    display: block;
+    padding-top:10px;
+    padding-left: 10px;
+    background: -webkit-linear-gradient(to left, #a1d3b0, #597972);
+    background: -moz-linear-gradient(to left, #a1d3b0, #597972);
+    background: linear-gradient(to left, #a1d3b0, #597972);
+}
+
+.Titulo{
+    padding: 5px;
+    color:#FFFFFF;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Lato", Verdana;
+    font-size:30px;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+.dato{
+    color: #FFFFFF;
+    display:block;
+    text-align: left;
+    font-variant:small-caps;
+    font-family: "lato", Verdana;
+    font-size: 25px;
+    margin:0;
+    padding:5px;
+}
+
+.dato_1{
+    color: #FFFFFF;
+    display:inline-block;
+    text-align: left;
+    font-variant:small-caps;
+    font-family: "lato", Verdana;
+    font-size: 25px;
+    margin-bottom:5px;
+    padding:5px;
+}
+
+h2 > a:link, h2>a:visited{
+    border-color:#FFFFFF;
+    border:1px;
+    border-radius: 1px;
+    font-size: 20px;
+    display:inline-block;
+    color:#FFFFFF
+}
+
+h2>a:active{
+    border-color:#FFFFFF;
+    border:1px;
+    border-radius: 1px;
+    font-size: 20px;
+    display:inline-block;
+    color:#FFFFFF
+}
+
+
+
+/*NAVBAR*/ /*-----------------------------------------------------------------*/
+.navul{
+    margin: 0;
+    padding: 0;
+    display:block;
+    background-color:#808080;
+    list-style-type: none;
+    overflow: hidden;
+}
+.certificado{
+    float:left;
+    display: inline;
+}
+
+.certificado>a{
+
+    text-decoration: none;
+    display:block;
+    padding:10px;
+    color:#FFFFFF;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.navul>li>a:hover, .certificado>a:focus{
+    background-color:#303030;
+}
+
+.certificado>a.active{
+    background-color: #303030
+}
+/*NAVBAR*//*-----------------------------------------------------------------*/
+
+
+
+/* F O O T E R */ /*-----------------------------------------------------------------*/
+
+Footer{
+  display:block;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  background-color:#808080;
+  Color: #FFFFFF;
+  Text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+/* F O O T E R */ /*-----------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+/*RESUMEN*//*-------------------------------------------------------------------------------------*/
+.experiencia_laboral{
+  position:relative;
+  height:auto;
+  font-family: "lato",verdana;
+  color:#666666;
+  display:block;
+  text-align: justify;
+}
+
+.resumen_laboral{
+  margin-top:50px;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 5px;
+  letter-spacing: 0.5px ;
+  font-size: 20px;
+}
+
+.experiencia_laboral>ul{
+  Display:block;
+}
+/*Título de exp. laboral*/
+.experiencia_laboral>h1{
+  margin-top:25px;
+  margin-bottom: 25px;
+  padding: 5px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size:30px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+/*Lista de empresas - nombre de la empresa*/
+.cia{
+  display:inline-block;
+  cursor: pointer;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #666666;
+  border-radius: 5px;
+}
+
+/*Lista de empresas - Resumen de la empresa*/
+.Chamba>details>h2{
+    padding-left: 20px;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+
+.Chamba>details>h3{
+    padding-left: 20px;
+    font-weight:normal;
+    padding-bottom:10px;
+}
+
+.puesto{
+    display:inline-block;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    padding: 6px;
+    margin: 10px;
+    margin-left: 50px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
+
+.Chamba>details>details>p, .Chamba>details>details>ul {
+  margin-left: 50px;
+}
+
+.Chamba>details>details>p{
+  font-weight: 600;
+}
+
+.Chamba>details>details>ul{
+  list-style-type: disc;
+  padding-left: 15px;
+}
+.Chamba>details>details>ul>li{
+  padding-bottom: 20px;
+}
+
+
+
+/*RESUMEN*//*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+
+/*ESTUDIOS*//*-------------------------------------------------------------------------------------*/
+.Estudios{
+  position:relative;
+  height:auto;
+  font-family: "lato",verdana;
+  color:#666666;
+  display:block;
+}
+
+.Estudios>h1{
+  margin-top:25px;
+  margin-bottom: 25px;
+  padding: 5px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size:30px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.cia > summary{
+  margin-top: 10px;
+  clear:both;
+  display:inline-block;
+  padding:10px;
+  box-shadow: 1px 1px 2px;
+  cursor:pointer
+}
+.Estudios>details>ul{
+display:block;
+
+}
+
+.Estudios>details>ul>li{
+  display:block;
+  margin-left: 10px;
+  padding:10px;
+}
+
+
+/*ESTUDIOS*//*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*CERTIFICADOS*//*-------------------------------------------------------------------------------------*/
+
+.diplomas{
+  height:100%;
+  font-family: "lato",verdana;
+  color:#666666;
+  display:block;
+}
+
+.diplomas>h1{
+  margin-top:25px;
+  margin-bottom: 25px;
+  padding: 5px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size:30px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.Fotos{
+  box-sizing: border-box;
+  text-align:center;
+  display:inline-block;
+  Width:30%;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0;
+  margin: 10px;
+  max-width: 400px;
+}
+
+img{
+  width:100%;
+}
+
+.bachi{
+  box-sizing: border-box;
+  text-align:center;
+  display:block;
+  Width:30%;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.container{
+  text-align: center;
+  padding: 10px 20px;
+  border-top: 0.5px solid #666666;
+}
+
