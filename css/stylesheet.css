@@ -139,7 +139,7 @@ h2>a:active{
   width: 100%;
 }
 
-@media all and (min-width: 400px){
+@media all and (min-width: 450px){
   .certificado{
     float:left;
     display: block;
@@ -206,6 +206,7 @@ Footer{
 }
 
 .resumen_laboral{
+  text-align:left;
   margin-top:50px;
   margin-right: 10%;
   margin-left: 10%;
@@ -411,6 +412,13 @@ img{
 }
 
 @media all and (min-width:400px){
+  .bachi{
+    Width:60%;
+    margin-bottom:20px;
+  }
+}
+
+@media all and (min-width:800px){
   .bachi{
     Width:45%;
     margin-bottom:20px;
