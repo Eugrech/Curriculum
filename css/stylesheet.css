@@ -101,17 +101,6 @@ header {
     padding:5px;
 }
 
-.dato_1{
-    color: #FFFFFF;
-    display:inline-block;
-    text-align: left;
-    font-variant:small-caps;
-    font-family: "lato", Verdana;
-    font-size: 25px;
-    margin-bottom:5px;
-    padding:5px;
-}
-
 h2 > a:link, h2>a:visited{
     border-color:#FFFFFF;
     border:1px;
@@ -144,19 +133,19 @@ h2>a:active{
 }
 
 .certificado{
+  display: block;
+  height:100%;
+  list-style-type: none;
+  width: 100%;
+}
+
+@media all and (min-width: 400px){
+  .certificado{
     float:left;
     display: block;
     height:100%;
     list-style-type: none;
     width:auto;
-}
-
-@media all and (max-width: 700px){
-  .certificado{
-    display: block;
-    height:100%;
-    list-style-type: none;
-    width: 100%;
   }
 }
 
@@ -360,6 +349,7 @@ display:block;
   font-family: "lato",verdana;
   color:#666666;
   display:block;
+  width: 100%;
 }
 
 .diplomas>h1{
@@ -376,15 +366,34 @@ display:block;
 }
 
 .Fotos{
+  margin: 0 auto;
+  margin-left:2%;
+  margin-right:2%;
+  margin-bottom:2%;
   box-sizing: border-box;
-  text-align:center;
-  display:inline-block;
-  Width:30%;
   background-color: #FFFFFF;
   box-shadow: 0 4px 8px 0;
-  margin: 10px;
-  max-width: 400px;
+  text-align:center;
+  display:inline-block;
+  Width:45%;
+
 }
+
+@media all and (min-width:800px){
+  .Fotos{
+    margin:0 auto;
+    margin-left:2%;
+    margin-bottom:1%;
+    box-sizing: border-box;
+    text-align:center;
+    display:inline-block;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0;
+    width:30%;
+   
+  }
+}
+
 
 img{
   width:100%;
@@ -394,15 +403,24 @@ img{
   box-sizing: border-box;
   text-align:center;
   display:block;
-  Width:30%;
+  Width:90%;
   background-color: #FFFFFF;
   box-shadow: 0 4px 8px 0;
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 5%;
+}
+
+@media all and (min-width:400px){
+  .bachi{
+    Width:45%;
+    margin-bottom:20px;
+  }
 }
 
 .container{
   text-align: center;
   padding: 10px 20px;
   border-top: 0.5px solid #666666;
+  overflow: hidden;
+  font-size: 1em;
 }
